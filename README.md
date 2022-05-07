@@ -1,16 +1,9 @@
 # ElibrayManagement01
 
 
-## ❗ ❌ Nálam hibára fut :
+## ❗ javítva a hiba, bootstrap még javítani kell :
 
-![Error](https://github.com/veronikasarkany/ElibrayManagement01/blob/master/error.jpg)
-
-System.NullReferenceException
-  HResult=0x80004003
-  Message=Az objektumhivatkozás nincs beállítva semmilyen objektumpéldányra.
-  Source=ElibrayManagement01
-  StackTrace:
-   at ElibrayManagement01.Site1.Page_Load(Object sender, EventArgs e) in C:\Users\Süske\source\repos\ElibrayManagement01\Site1.Master.cs:line 16
+if (Session["role"].Equals("")) javítva ->  if (Session["role"] == null)
 
 
 ## ⬇ Innen letölthető az eredeti project
